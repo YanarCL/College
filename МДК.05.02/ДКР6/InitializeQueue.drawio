@@ -1,0 +1,45 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 YaBrowser/25.2.0.0 Safari/537.36" version="26.1.1">
+  <diagram name="Страница — 1" id="P1GiWgrTYoqFBTfBC1cj">
+    <mxGraphModel dx="1290" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bz-W0N9iJ9lMvQ0Nhlg6-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bz-W0N9iJ9lMvQ0Nhlg6-1" target="bz-W0N9iJ9lMvQ0Nhlg6-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bz-W0N9iJ9lMvQ0Nhlg6-1" value="Начало&amp;nbsp;InitializeQueue" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="20" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bz-W0N9iJ9lMvQ0Nhlg6-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bz-W0N9iJ9lMvQ0Nhlg6-3" target="bz-W0N9iJ9lMvQ0Nhlg6-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bz-W0N9iJ9lMvQ0Nhlg6-3" value="инициализация q" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="90" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bz-W0N9iJ9lMvQ0Nhlg6-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bz-W0N9iJ9lMvQ0Nhlg6-5" target="bz-W0N9iJ9lMvQ0Nhlg6-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bz-W0N9iJ9lMvQ0Nhlg6-5" value="&lt;div&gt;q.front := 1;&lt;/div&gt;&lt;div&gt;q.rear := 0;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="150" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bz-W0N9iJ9lMvQ0Nhlg6-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bz-W0N9iJ9lMvQ0Nhlg6-7" target="bz-W0N9iJ9lMvQ0Nhlg6-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bz-W0N9iJ9lMvQ0Nhlg6-7" value="возврат q" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="210" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bz-W0N9iJ9lMvQ0Nhlg6-9" value="Конец InitializeQueue" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="280" width="140" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

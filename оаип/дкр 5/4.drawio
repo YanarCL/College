@@ -1,0 +1,376 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 YaBrowser/24.12.0.0 Safari/537.36" version="25.0.3">
+  <diagram name="Страница — 1" id="T4vHSoEaz9Y3NxHWIX21">
+    <mxGraphModel dx="1276" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NSTDAEKcO842Duvz04iq-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NSTDAEKcO842Duvz04iq-1" target="NSTDAEKcO842Duvz04iq-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-1" value="начало" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NSTDAEKcO842Duvz04iq-3" target="NSTDAEKcO842Duvz04iq-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-3" value="assign(input)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="70" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NSTDAEKcO842Duvz04iq-5" target="NSTDAEKcO842Duvz04iq-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-5" value="reset(input)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="130" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NSTDAEKcO842Duvz04iq-7" target="NSTDAEKcO842Duvz04iq-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-7" value="ввод m" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="190" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NSTDAEKcO842Duvz04iq-9" target="NSTDAEKcO842Duvz04iq-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-9" value="i:=1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="250" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NSTDAEKcO842Duvz04iq-12" target="NSTDAEKcO842Duvz04iq-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-12" value="Цикл 1&lt;div&gt;i&amp;gt;m&lt;/div&gt;" style="shape=loopLimit;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="310" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NSTDAEKcO842Duvz04iq-22" target="NSTDAEKcO842Duvz04iq-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-15" value="read(input, arr[i])" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="380" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NSTDAEKcO842Duvz04iq-17" target="NSTDAEKcO842Duvz04iq-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-17" value="Цикл 1" style="shape=loopLimit;whiteSpace=wrap;html=1;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="30" y="500" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NSTDAEKcO842Duvz04iq-19" target="NSTDAEKcO842Duvz04iq-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-19" value="close(input)&lt;div&gt;i:=1&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="564.5" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NSTDAEKcO842Duvz04iq-21" target="NSTDAEKcO842Duvz04iq-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-21" value="Цикл 2&lt;div&gt;i&amp;gt;m&lt;/div&gt;" style="shape=loopLimit;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="620" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NSTDAEKcO842Duvz04iq-15" target="NSTDAEKcO842Duvz04iq-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="480" as="targetPoint" />
+            <mxPoint x="100" y="420" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-22" value="i+=1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="440" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NSTDAEKcO842Duvz04iq-25" target="NSTDAEKcO842Duvz04iq-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-25" value="вывод&lt;div&gt;(arr[i]:4)&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="690" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NSTDAEKcO842Duvz04iq-27" target="NSTDAEKcO842Duvz04iq-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-27" value="i+=1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="750" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NSTDAEKcO842Duvz04iq-29" target="NSTDAEKcO842Duvz04iq-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-29" value="Цикл 2" style="shape=loopLimit;whiteSpace=wrap;html=1;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="30" y="810" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NSTDAEKcO842Duvz04iq-32" target="NSTDAEKcO842Duvz04iq-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-32" value="close(input)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="880" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NSTDAEKcO842Duvz04iq-34" target="NSTDAEKcO842Duvz04iq-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="1000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-34" value="sortarr(arr, m, cmp1)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="940" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NSTDAEKcO842Duvz04iq-36" target="NSTDAEKcO842Duvz04iq-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="1060" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-36" value="assign(output)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1000" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NSTDAEKcO842Duvz04iq-38" target="NSTDAEKcO842Duvz04iq-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="1120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-38" value="rewrite(output)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1060" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-40" value="Q" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="79.5" y="1120" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NSTDAEKcO842Duvz04iq-41" target="NSTDAEKcO842Duvz04iq-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="65" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-41" value="Q" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="390" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NSTDAEKcO842Duvz04iq-43" target="NSTDAEKcO842Duvz04iq-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="125" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-43" value="i:=1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="65" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NSTDAEKcO842Duvz04iq-45" target="NSTDAEKcO842Duvz04iq-47">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="195" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-45" value="Цикл 3&lt;div&gt;i&amp;gt;m&lt;/div&gt;" style="shape=loopLimit;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="120" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NSTDAEKcO842Duvz04iq-47" target="NSTDAEKcO842Duvz04iq-49">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="245" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-47" value="&lt;div&gt;вывод(output, arr[i])&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;вывод(arr[i]:4)&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="185" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NSTDAEKcO842Duvz04iq-49" target="NSTDAEKcO842Duvz04iq-51">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="305" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-49" value="i+=1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="245" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NSTDAEKcO842Duvz04iq-51" target="NSTDAEKcO842Duvz04iq-53">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-51" value="Цикл 3" style="shape=loopLimit;whiteSpace=wrap;html=1;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="340" y="305" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NSTDAEKcO842Duvz04iq-53" target="NSTDAEKcO842Duvz04iq-55">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="435" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-53" value="close(output)&lt;div&gt;i:=1&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="375" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NSTDAEKcO842Duvz04iq-55" target="NSTDAEKcO842Duvz04iq-57">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="505" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-55" value="Цикл 4&lt;div&gt;i&amp;gt;m&lt;/div&gt;" style="shape=loopLimit;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="435" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NSTDAEKcO842Duvz04iq-57" target="NSTDAEKcO842Duvz04iq-59">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="555" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-57" value="arrradix[i] := arr[i]" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="499.5" width="140" height="35.5" as="geometry" />
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NSTDAEKcO842Duvz04iq-59" target="NSTDAEKcO842Duvz04iq-61">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="605" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-59" value="i+=1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="549.5" width="140" height="35.5" as="geometry" />
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NSTDAEKcO842Duvz04iq-61" target="NSTDAEKcO842Duvz04iq-64">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="665" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-61" value="Цикл 4" style="shape=loopLimit;whiteSpace=wrap;html=1;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="340" y="599.5" width="140" height="45.5" as="geometry" />
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NSTDAEKcO842Duvz04iq-64" target="NSTDAEKcO842Duvz04iq-66">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="725" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-64" value="radixSort(arrradix, m, cmp2)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="665" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NSTDAEKcO842Duvz04iq-66" target="NSTDAEKcO842Duvz04iq-68">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="785" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-66" value="assign(output)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="725" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NSTDAEKcO842Duvz04iq-68" target="NSTDAEKcO842Duvz04iq-70">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="845" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-68" value="rewrite(output)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="785" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NSTDAEKcO842Duvz04iq-70" target="NSTDAEKcO842Duvz04iq-72">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="905" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-70" value="i:=1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="845" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NSTDAEKcO842Duvz04iq-72">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="975" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-72" value="Цикл 5&lt;div&gt;i&amp;gt;m&lt;/div&gt;" style="shape=loopLimit;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="905" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="NSTDAEKcO842Duvz04iq-78">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="1035" as="targetPoint" />
+            <mxPoint x="410" y="1015" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-76" value="&lt;div&gt;вывод(output, arrradix[i]);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; вывод(arrradix[i]:4)&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="975" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NSTDAEKcO842Duvz04iq-78" target="NSTDAEKcO842Duvz04iq-80">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="1085" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-78" value="i+=1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1025" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NSTDAEKcO842Duvz04iq-80" target="NSTDAEKcO842Duvz04iq-82">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="1155" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-80" value="Цикл 5" style="shape=loopLimit;whiteSpace=wrap;html=1;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1084" width="140" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NSTDAEKcO842Duvz04iq-82" target="NSTDAEKcO842Duvz04iq-84">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="1215" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-82" value="close(output)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1155" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-84" value="конец" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1215" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-85" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1" target="NSTDAEKcO842Duvz04iq-86">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="995" as="sourcePoint" />
+            <mxPoint x="520" y="995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-86" value="вывод происходит&lt;div&gt;через 4 пробела&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="965" width="50" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-87" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" target="NSTDAEKcO842Duvz04iq-88" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="205" as="sourcePoint" />
+            <mxPoint x="510" y="205" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-88" value="вывод происходит&lt;div&gt;через 4 пробела&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="175" width="50" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-89" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" target="NSTDAEKcO842Duvz04iq-90" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="710" as="sourcePoint" />
+            <mxPoint x="200" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-90" value="вывод происходит&lt;div&gt;через 4 пробела&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="680" width="50" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-91" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" target="NSTDAEKcO842Duvz04iq-92" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="90" as="sourcePoint" />
+            <mxPoint x="210" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-92" value="назначает файловой&lt;div&gt;переменой имя&lt;/div&gt;&lt;div&gt;внешнего файла&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="70" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-93" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" target="NSTDAEKcO842Duvz04iq-94" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="150" as="sourcePoint" />
+            <mxPoint x="210" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-94" value="открывает существующий&lt;div&gt;файл для чтения&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="120" width="50" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-95" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="NSTDAEKcO842Duvz04iq-96" parent="1" source="NSTDAEKcO842Duvz04iq-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="585" as="sourcePoint" />
+            <mxPoint x="200" y="585" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NSTDAEKcO842Duvz04iq-96" value="закрытие файла&lt;div&gt;после считывания&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="555" width="50" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

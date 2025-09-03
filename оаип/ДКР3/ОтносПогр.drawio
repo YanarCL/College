@@ -1,0 +1,48 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 YaBrowser/24.10.0.0 Safari/537.36" version="24.9.3">
+  <diagram name="Страница — 1" id="RBFInK8rJXPCAJEENTS0">
+    <mxGraphModel dx="1290" dy="1744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UOKmmVly_Jt8t4fezgRh-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UOKmmVly_Jt8t4fezgRh-1" target="UOKmmVly_Jt8t4fezgRh-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="-1090" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UOKmmVly_Jt8t4fezgRh-1" value="Inac&lt;div&gt;Начало&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="-1169" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UOKmmVly_Jt8t4fezgRh-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UOKmmVly_Jt8t4fezgRh-3" target="UOKmmVly_Jt8t4fezgRh-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="-1000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UOKmmVly_Jt8t4fezgRh-3" value="Инициализация a,b" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="-1100" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UOKmmVly_Jt8t4fezgRh-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="-1000" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UOKmmVly_Jt8t4fezgRh-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UOKmmVly_Jt8t4fezgRh-6" target="UOKmmVly_Jt8t4fezgRh-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="-880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UOKmmVly_Jt8t4fezgRh-6" value="Inac:=((ExactIntegral(a, b) - ans)/ExactIntegral(a, b))*100" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="-1000" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UOKmmVly_Jt8t4fezgRh-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UOKmmVly_Jt8t4fezgRh-8" target="UOKmmVly_Jt8t4fezgRh-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="-790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UOKmmVly_Jt8t4fezgRh-8" value="Возврат Inac" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="-880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UOKmmVly_Jt8t4fezgRh-10" value="Inac&lt;div&gt;Конец&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="-790" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

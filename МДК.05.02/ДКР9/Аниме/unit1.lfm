@@ -1,0 +1,65 @@
+object fOutput: TfOutput
+  Left = 512
+  Height = 447
+  Top = 445
+  Width = 1260
+  Caption = 'Информация'
+  ClientHeight = 447
+  ClientWidth = 1260
+  DesignTimePPI = 120
+  OnClose = FormClose
+  OnCreate = FormCreate
+  LCLVersion = '3.8.0.0'
+  object Panel: TPanel
+    Left = 0
+    Height = 32
+    Top = 0
+    Width = 1260
+    ClientHeight = 32
+    ClientWidth = 1260
+    TabOrder = 0
+    object bAdd: TSpeedButton
+      Left = 296
+      Height = 28
+      Top = 0
+      Width = 152
+      Caption = 'Добавить'
+      OnClick = bAddClick
+    end
+    object bEdit: TSpeedButton
+      Left = 480
+      Height = 28
+      Top = 0
+      Width = 152
+      Caption = 'Редактировать'
+      OnClick = bEditClick
+    end
+    object bDel: TSpeedButton
+      Left = 664
+      Height = 28
+      Top = 0
+      Width = 152
+      Caption = 'Удалить'
+      OnClick = bDelClick
+    end
+    object bSort: TSpeedButton
+      Left = 848
+      Height = 28
+      Top = 0
+      Width = 152
+      Caption = 'Сортировать'
+      OnClick = bSortClick
+    end
+  end
+  object Strings: TStringGrid
+    Left = 0
+    Height = 413
+    Top = 32
+    Width = 1260
+    ColCount = 7
+    DefaultColWidth = 180
+    RowCount = 1
+    TabOrder = 1
+    OnDblClick = bEditClick
+  end
+end

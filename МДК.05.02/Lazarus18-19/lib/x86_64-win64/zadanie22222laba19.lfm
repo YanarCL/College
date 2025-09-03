@@ -1,0 +1,67 @@
+object Form1: TForm1
+  Left = 1125
+  Height = 423
+  Top = 390
+  Width = 765
+  Caption = 'Form1'
+  ClientHeight = 423
+  ClientWidth = 765
+  DesignTimePPI = 120
+  LCLVersion = '3.8.0.0'
+  object Edit1: TEdit
+    Left = 62
+    Height = 28
+    Top = 216
+    Width = 244
+    TabOrder = 0
+  end
+  object Edit2: TEdit
+    Left = 432
+    Height = 28
+    Top = 216
+    Width = 248
+    TabOrder = 1
+  end
+  object Memo1: TMemo
+    Left = 32
+    Height = 147
+    Top = 31
+    Width = 690
+    TabOrder = 2
+  end
+  object Label1: TLabel
+    Left = 62
+    Height = 20
+    Top = 192
+    Width = 119
+    AutoSize = False
+    Caption = 'Введите радиус'
+  end
+  object Label2: TLabel
+    Left = 433
+    Height = 20
+    Top = 193
+    Width = 208
+    Caption = 'Введите соотношение сторон'
+  end
+  object BitBtn1: TBitBtn
+    Left = 620
+    Height = 43
+    Top = 363
+    Width = 128
+    Caption = '&Выход'
+    Kind = bkClose
+    ModalResult = 11
+    OnClick = BitBtn1Click
+    TabOrder = 3
+  end
+  object Button1: TButton
+    Left = 216
+    Height = 59
+    Top = 264
+    Width = 294
+    Caption = 'Посчитать'
+    TabOrder = 4
+    OnClick = Button1Click
+  end
+end
